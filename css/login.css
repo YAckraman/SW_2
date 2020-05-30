@@ -1,0 +1,164 @@
+*
+{
+    transition: all 0.3s;
+}
+body
+{
+    font-family:  "roboto",lfont;
+    background-color:#e8edf3;
+    
+}
+/*Start nav*/
+form
+{
+    position: relative;
+}
+form .input-form
+{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    height: 44px;
+    border: 1px solid #e4eef2;
+    background: #f7fafb;
+    border-bottom-left-radius:16px;
+    margin: 0;
+    font-size: 23px;
+    padding-right: 15px;
+    position: relative;
+    
+
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: #2c69b0;
+    
+}
+form .input-form:focus
+{
+    box-shadow: 0 0 0 0.05rem rgba(0,123,255,.25);
+}
+form .icon-button 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 44px;
+   border: none;
+    background: #00aff0;
+    color: #fff;
+    border-radius: 0px 22px 22px 0px;
+    cursor: pointer;
+}
+form .icon-button:hover 
+{
+     border-radius: 0px 22px 22px 0px;
+}
+form .icon-button:focus 
+{
+        box-shadow:none;
+
+}
+form .icon-button i
+{
+ font-size: 1.35rem;
+  margin-top: 5px;
+ display: inline-block;
+ margin-left: 2px;
+font-weight: 600;
+}
+/*End nav*/
+#login
+{
+    margin: auto;
+    width: 70%;
+    background-color: #fff;
+}
+
+
+
+.circles
+{
+    border: 2px solid #2c69b0;
+    border-radius: 50%;
+    padding: 15px;
+    position: relative;
+    font-size: 19px;
+    
+}
+.circles:after
+{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: #2c69b0;
+    position: absolute;
+    top: 50%;
+   right: 101%;
+    
+}
+.circles:before
+{
+    content: "";
+    width: 200px; 
+    height: 2px;
+    background-color: #2c69b0;
+    position: absolute;
+    top: 50%;
+   left: 101%;
+    
+}
+/*End nav*/
+/* start hiddenNav*/
+#hiddenNav .fixed-top
+{
+    top: -110px;
+}
+#hiddenNav li a
+{
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #00aff0;
+    border-radius: 20px;
+}
+/* End hiddenNav*/
+
+
+#login form .alert
+{
+    display: none;
+}
+
+
+
+
+
+/*start footer*/
+.footer-content
+{
+    background-color: #fff!important;
+}
+.footer-content a
+{
+        color: #2c69b0;
+    font-size: 19px;
+    text-decoration: none;
+}
+.social-icon i
+{
+    font-size: 24px;
+    border: 1px solid #333;
+     color: #333;
+    background-color: transparent;
+    
+}
+.social-icon i:hover
+{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+
+}
+
+/*End footer*/
